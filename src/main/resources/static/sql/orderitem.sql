@@ -1,6 +1,6 @@
 USE BOOKMARKETDB;
 
-CREATE TABLE IF NOT EXISTS orderItem1( 
+CREATE TABLE IF NOT EXISTS orderItem(
     itemId int(11) NOT NULL AUTO_INCREMENT,
     bookid int(11) NOT NULL,
     quantity INTEGER,
